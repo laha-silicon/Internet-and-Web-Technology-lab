@@ -1,0 +1,74 @@
+.photo-frame
+{
+    width: 300px;
+    border: 5px blue solid;
+    margin: 10px;
+    padding: 15px;
+}
+
+/* Style the outer edge of the table */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merges adjacent borders into one */
+  border: 2px solid #333;    /* Outer border */
+}
+
+/* Style the headers and the cells */
+th{
+  border: 1px solid #3a2727;    
+  padding: 12px;             
+  text-align: center;
+  background-color: rgb(92, 110, 126);
+  font-style: bold;
+}
+td
+{
+    text-align: center;
+    border: 1px solid #3a2727;    
+    padding: 12px;
+}
+
+/* Zebra striping: target every second row */
+tr:nth-child(odd) {
+  background-color: #cfc6c6; /* Light grey for alternate rows */
+}
+
+
+.profile-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-card .title {
+    color: grey;
+    font-size: 18px;
+}
+
+.profile-card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.profile-card button:hover {
+    opacity: 0.7;
+}
