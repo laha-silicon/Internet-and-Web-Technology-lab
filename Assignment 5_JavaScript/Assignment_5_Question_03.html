@@ -1,0 +1,22 @@
+<!-- Palindrome Check -->
+ <!-- Write a program using a while loop to reverse the digits of a number and check if the number is a palindrome or not. -->
+<html>
+    <head>
+        <title>Question_03</title>
+        <script language="Javascript">
+            let a=prompt("Enter a number: ");
+	        let n=parseInt(a);
+	        let i,rev=0,t=n,dig;
+            while(t!=0)
+            {
+            dig=t%10;
+            rev=(rev*10)+dig;
+            t=Math.floor(t/10);
+            }
+            if(rev == n)
+            console.log(n+"is a Palindrome Number");
+            else
+            console.log(n+"is not a Palindrome Number");
+        </script>
+    </head>
+</html>

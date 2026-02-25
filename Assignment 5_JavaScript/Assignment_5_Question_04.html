@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Areas_JAVASCRIPT</title>
+        <script language="Javascript">
+            var a =  new Array(9,12,34,2,10);
+            var i,sum=0,avg,max=a[0], min=a[0];
+            for(i=0; i<5; i++)
+            {
+                sum = sum+a[i];
+                if(max<a[i])
+                {
+                    max = a[i];
+                }
+            }
+            for(i=0; i<5; i++)
+            {
+                if(min > a[i])
+                {
+                    min=a[i];
+                }
+            }
+            document.write("The Sum of the elements of the array is: "+sum+"<br>");
+            document.write("The Average of the elements: "+(sum/5)+"<br>");
+            document.write("The Max element present in the array is: "+max+"<br>");
+            document.write("The Min element present in the array is: "+min+"<br>");
+        </script>
+    </head>
+    </html>
